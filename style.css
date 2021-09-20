@@ -1,0 +1,238 @@
+/* Home page */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Cardo", serif;
+  background-color: #2f2fa2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+nav {
+  background-color: #242582;
+}
+
+img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 57rem;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.nav-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+}
+
+.nav-navbar h5 {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #a2a22f;
+}
+
+.nav-link:active {
+  text-decoration: underline;
+}
+
+/* Main section */
+.main {
+  display: flex;
+}
+
+.main-feature-post {
+  width: 100%;
+  border-bottom: 2px solid #2fa2a2;
+}
+
+.main-feature-info {
+  margin-top: 0;
+}
+
+.main-feature-title {
+  color: white;
+  margin: 1rem 0;
+}
+
+.main-feature-text {
+  color: white;
+  margin: 1rem 0;
+}
+
+.main-feature-continue {
+  margin: 1rem 0;
+}
+
+.main-feature-link {
+  text-decoration: none;
+  color: white;
+}
+
+.main-feature-link:hover {
+  color: #a2a22f;
+}
+
+.main-recent-post {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.main-recent-title {
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.main-recent-text {
+  color: white;
+  margin: 1rem 0;
+}
+
+.main-recent-link {
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0;
+}
+
+.main-recent-right {
+  margin-left: 1rem;
+}
+
+.main-recent-link:hover {
+  color: #a2a22f;
+}
+
+.main-recent-picture img {
+  width: 15rem;
+}
+
+/* Aside section */
+.main-sidebar {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.sidebar-about {
+  padding: 1rem;
+  border: 16px solid #2fa2a2;
+  margin-bottom: 1rem;
+}
+
+.sidebar-about-title {
+  color: white;
+  margin: 1rem 0;
+}
+
+.sidebar-recent {
+  border-bottom: 2px solid #2fa2a2;
+}
+
+.sidebar-recent-post .sidebar-recent:nth-child(3) {
+  border-bottom: none;
+}
+
+.sidebar-recent-title {
+  color: white;
+}
+
+.sidebar-recent-post {
+  padding: 1rem;
+  border: 16px solid #2fa2a2;
+}
+
+.sidebar-recent-text {
+  padding-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #242582;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .nav-navbar {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .nav-logo {
+    margin-bottom: 1rem;
+  }
+
+  .nav-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-item {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-item li {
+    margin: 1rem 0;
+  }
+
+  .main {
+    display: block;
+  }
+
+  .main-recent-post {
+    margin-bottom: 2rem;
+  }
+}
+
+/* About page */
+.main-aboutme-text,
+.aboutme-subtitle,
+.aboutme-text {
+  margin: 1rem 0;
+}
